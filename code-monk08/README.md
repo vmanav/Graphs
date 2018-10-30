@@ -51,7 +51,7 @@ this list contains resource from *[Coding Interview University](https://github.c
 - I'll implement:
     - [ ] DFS with adjacency list (recursive)
     - [ ] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
+    - [x] DFS with adjacency matrix (recursive)
     - [ ] DFS with adjacency matrix (iterative with stack)
     - [ ] BFS with adjacency list
     - [ ] BFS with adjacency matrix
