@@ -16,15 +16,15 @@ this list contains resource from *[Coding Interview University](https://github.c
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
-- [ ] MyCodeSchool Videos - Initiate Here:
-    - [ ] [MYCODESCHOOL - Video 38 - Introduction to Graphs](https://youtu.be/gXgEDyodOJU?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] [MYCODESCHOOL - Video 39 - Properties of Graphs](https://www.youtube.com/watch?v=AfYqN3fGapc&t=0s&index=40&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] [MYCODESCHOOL - Video 40 - Representation P.1 Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&t=0s&index=41&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] [MYCODESCHOOL - Video 41 - Representation P.2 Adjancency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&t=0s&index=42&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [ ] [MYCODESCHOOL - Video 42 - Representation P.3 Adjancency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=0s&index=43&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+- [X] MyCodeSchool Videos - Initiate Here:
+    - [X] [MYCODESCHOOL - Video 38 - Introduction to Graphs](https://youtu.be/gXgEDyodOJU?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [X] [MYCODESCHOOL - Video 39 - Properties of Graphs](https://www.youtube.com/watch?v=AfYqN3fGapc&t=0s&index=40&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [X] [MYCODESCHOOL - Video 40 - Representation P.1 Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&t=0s&index=41&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [X] [MYCODESCHOOL - Video 41 - Representation P.2 Adjancency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&t=0s&index=42&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [X] [MYCODESCHOOL - Video 42 - Representation P.3 Adjancency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=0s&index=43&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 
 - [ ] Skiena Lectures - great intro:
-    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+    - [X] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
     - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
@@ -41,7 +41,6 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [ ] [Aduni: Graph Algorithms II - DFS, BFS, Kruskal's Algorithm, Union Find Data Structure - Lecture 7 (video)]( https://www.youtube.com/watch?v=ufj5_bppBsA&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=7)
     - [ ] [Aduni: Graph Algorithms III: Shortest Path - Lecture 8 (video)](https://www.youtube.com/watch?v=DiedsPsMKXc&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=8)
     - [ ] [Aduni: Graph Alg. IV: Intro to geometric algorithms - Lecture 9 (video)](https://www.youtube.com/watch?v=XIAQRlNkJAw&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=9)
-    - [ ] ~~[CS 61B 2014 (starting at 58:09) (video)](https://youtu.be/dgjX4HdMI-Q?list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&t=3489)~~
     - [ ] [CS 61B 2014: Weighted graphs (video)](https://archive.org/details/ucberkeley_webcast_zFbq8vOZ_0k)
     - [ ] [Greedy Algorithms: Minimum Spanning Tree (video)](https://www.youtube.com/watch?v=tKwnms5iRBU&index=16&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [Strongly Connected Components Kosaraju's Algorithm Graph Algorithm (video)](https://www.youtube.com/watch?v=RpgcYiky7uw)
