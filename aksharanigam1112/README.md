@@ -53,7 +53,7 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [ ] DFS with adjacency list (iterative with stack)
     - [ ] DFS with adjacency matrix (recursive)
     - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
+    - [X] BFS with adjacency list
     - [x] BFS with adjacency matrix
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
