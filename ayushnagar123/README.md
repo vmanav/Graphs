@@ -24,8 +24,8 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [x] [MYCODESCHOOL - Video 42 - Representation P.3 Adjancency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=0s&index=43&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 
 - [ ] Skiena Lectures - great intro:
-    - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
-    - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
+    - [x] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
+    - [x] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
     - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
@@ -70,3 +70,7 @@ this list contains resource from *[Coding Interview University](https://github.c
 - Frequent Programming Contest Problems:
     - [ ] [Steven Halim -CP3 - Chap. 04](https://bqrkhn.wordpress.com/2015/07/16/competitive-programming-3-by-steven-halim/)
     - [ ] [Competitve Programmer's Handbook](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=2ahUKEwja65WWvKjeAhXTbn0KHc80BcAQFjAFegQIBRAC&url=https%3A%2F%2Fcses.fi%2Fbook.pdf&usg=AOvVaw397e0pL7-jpyJELZaw2LyH) 
+
+- Additional Resources:
+    - [ ] [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1/home/info)
+    - [ ] [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2/home/info)
