@@ -70,3 +70,7 @@ this list contains resource from *[Coding Interview University](https://github.c
 - Frequent Programming Contest Problems:
     - [ ] [Steven Halim -CP3 - Chap. 04](https://bqrkhn.wordpress.com/2015/07/16/competitive-programming-3-by-steven-halim/)
     - [ ] [Competitve Programmer's Handbook](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=2ahUKEwja65WWvKjeAhXTbn0KHc80BcAQFjAFegQIBRAC&url=https%3A%2F%2Fcses.fi%2Fbook.pdf&usg=AOvVaw397e0pL7-jpyJELZaw2LyH) 
+
+- Additional Resources:
+    - [ ] [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1/home/info)
+    - [ ] [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2/home/info)

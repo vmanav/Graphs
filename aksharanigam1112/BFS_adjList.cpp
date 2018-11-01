@@ -1,4 +1,6 @@
 #include <iostream>
+#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 struct Node
 {
@@ -50,6 +52,30 @@ public:
         delete ptr;
 
     }
+
+    void BFS(int n)
+    {
+        vector<int>visit;
+        int k=0;
+        visit.push_back(1);
+        cout<<1<<"\t";
+        for(int i=0;i<n && k<visit.size() ; ++k , i = visit[k]-1)
+        {
+            Node *ptr = arr[i].head;
+
+            while(ptr)
+            {
+                if(find(visit.begin() , visit.end() , ptr->val )!=visit.end())
+                {
+                    cout<<ptr->val<<"\t";
+                    visit.push_back(ptr->val);
+                }
+                ptr= ptr->next;
+            }
+        }
+    }
+
+
     void display()
     {
          int i;
@@ -74,7 +100,7 @@ int main()
     Graph obj(n);
     do
     {
-        cout<<"\n1.. Add Edges \n2.. Remove Edges \n3.. Display"<<endl;
+        cout<<"\n1.. Add Edges \n2.. Remove Edges \n3.. BFS \n4.. Display"<<endl;
         cin>>ch;
         switch(ch)
         {
@@ -94,6 +120,11 @@ int main()
             }
         case 3:
             {
+                obj.BFS(n);
+                break;
+            }
+        case 4:
+            {
                 obj.display();
                 break;
             }
@@ -103,5 +134,6 @@ int main()
     }while(k==1);
     return 0;
 }
+
 
 
