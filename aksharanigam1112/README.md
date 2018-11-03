@@ -23,6 +23,59 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [X] [MYCODESCHOOL - Video 41 - Representation P.2 Adjancency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&t=0s&index=42&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
     - [X] [MYCODESCHOOL - Video 42 - Representation P.3 Adjancency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=0s&index=43&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 
+- [ ] Algorithms Part 2 - (they are divided into several weeks, sooner you finish them better it is) :
+
+    - [ ] Undirected Graph
+        - [ ] Reading: Overview
+        - [ ] Reading: Lecture Slides
+        - [ ] Video: Introduction to Graphs
+        - [ ] Video: Graph API
+        - [ ] Video: Depth-First Search
+        - [ ] Video: Breadth-First Search
+        - [ ] Video: Connected Components
+        - [ ] Video: Graph Challenges
+        - [ ] Practice Quiz: Interview Questions: Undirected Graphs (ungraded)
+
+    - [ ] Directed Graphs
+        - [ ] Reading: Lecture Slides
+        - [ ] Video: Introduction to Digraphs
+        - [ ] Video: Digraph API
+        - [ ] Video: Digraph Search
+        - [ ] Video: Topological Sort
+        - [ ] Video: Strong Components
+        - [ ] Practice Quiz: Interview Questions: Directed Graphs (ungraded)
+
+    - [ ] Minimum Spanning Trees
+        - [ ] Reading: Overview
+        - [ ] Reading: Lecture Slides
+        - [ ] Video: Introduction to MSTs
+        - [ ] Video: Greedy Algorithm
+        - [ ] Video: Edge-Weighted Graph API
+        - [ ] Video: Kruskal's Algorithm
+        - [ ] Video: Prim's Algorithm
+        - [ ] Video: MST Context
+        - [ ] Practice Quiz: Interview Questions: Minimum Spanning Trees (ungraded)
+
+    - [ ] Shortest Path
+        - [ ] Reading: Lecture Slides
+        - [ ] Video: Shortest Paths APIs
+        - [ ] Video: Shortest Path Properties
+        - [ ] Video: Dijkstra's Algorithm
+        - [ ] Video: Edge-Weighted DAGs
+        - [ ] Video: Negative Weights
+        - [ ] Practice Quiz: Interview Questions: Shortest Paths (ungraded)
+
+    - [ ] Maximum Flow and Minimum Cut
+        - [ ] Reading: Overview
+        - [ ] Reading: Lecture Slides
+        - [ ] Video: Introduction to Maxflow
+        - [ ] Video: Ford–Fulkerson Algorithm
+        - [ ] Video: Maxflow–Mincut Theorem
+        - [ ] Video: Running Time Analysis
+        - [ ] Video: Java Implementation (Convert to C++ or Python)
+        - [ ] Video: Maxflow Applications
+        - [ ] Practice Quiz: Interview Questions: Maximum Flow (ungraded)
+
 - [ ] Skiena Lectures - great intro:
     - [X] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [X] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
@@ -49,8 +102,8 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
+    - [X] DFS with adjacency list (recursive)
+    - [X] DFS with adjacency list (iterative with stack)
     - [ ] DFS with adjacency matrix (recursive)
     - [ ] DFS with adjacency matrix (iterative with stack)
     - [X] BFS with adjacency list
