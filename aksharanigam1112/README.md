@@ -51,8 +51,8 @@ this list contains resource from *[Coding Interview University](https://github.c
 - I'll implement:
     - [X] DFS with adjacency list (recursive)
     - [X] DFS with adjacency list (iterative with stack)
-    - [ ] DFS with adjacency matrix (recursive)
-    - [ ] DFS with adjacency matrix (iterative with stack)
+    - [X] DFS with adjacency matrix (recursive)
+    - [X] DFS with adjacency matrix (iterative with stack)
     - [X] BFS with adjacency list
     - [x] BFS with adjacency matrix
     - [ ] single-source shortest path (Dijkstra)
