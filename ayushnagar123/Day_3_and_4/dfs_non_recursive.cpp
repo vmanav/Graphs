@@ -16,7 +16,7 @@ class Graph
             adj[v].push_back(w);
         }
 
-void Graph::DFS(int s)
+void DFS(int s)
 {
     vector<bool> visited(V, false);
     stack<int> stack;
