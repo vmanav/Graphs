@@ -26,14 +26,14 @@ this list contains resource from *[Coding Interview University](https://github.c
 - [ ] Algorithms Part 2 - (they are divided into several weeks, sooner you finish them better it is) :
 
     - [ ] Undirected Graph
-        - [ ] Reading: Overview
-        - [ ] Reading: Lecture Slides
-        - [ ] Video: Introduction to Graphs
-        - [ ] Video: Graph API
-        - [ ] Video: Depth-First Search
-        - [ ] Video: Breadth-First Search
-        - [ ] Video: Connected Components
-        - [ ] Video: Graph Challenges
+        - [x] Reading: Overview
+        - [x] Reading: Lecture Slides
+        - [x] Video: Introduction to Graphs
+        - [x] Video: Graph API
+        - [x] Video: Depth-First Search
+        - [x] Video: Breadth-First Search
+        - [x] Video: Connected Components
+        - [x] Video: Graph Challenges
         - [ ] Practice Quiz: Interview Questions: Undirected Graphs (ungraded)
 
     - [ ] Directed Graphs
@@ -102,11 +102,11 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - I'll implement:
-    - [ ] DFS with adjacency list (recursive)
-    - [ ] DFS with adjacency list (iterative with stack)
+    - [x] DFS with adjacency list (recursive)
+    - [x] DFS with adjacency list (iterative with stack)
     - [ ] DFS with adjacency matrix (recursive)
     - [ ] DFS with adjacency matrix (iterative with stack)
-    - [ ] BFS with adjacency list
+    - [x] BFS with adjacency list
     - [ ] BFS with adjacency matrix
     - [ ] single-source shortest path (Dijkstra)
     - [ ] minimum spanning tree
