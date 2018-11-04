@@ -9,4 +9,17 @@
 - add your progress report, programs in C++ or Python or both in your respective folders and also share your progress in the slack group.
 - make sure all your programs contains proper comments and a link or paragraph to the problem statement.
 
+## Additional Stuff
+
+- greedy algorithms
+  - boruvka's algorithm (comes under MST)
+  - reverse delete algorithm (comes under MST)
+- Floyd warshal algorithm (part of dynamic programming for weighted graphs)
+- Articulation point graph algorithm (cut vertices)
+- Johnson's algorithm (uses both dijkstrras and bellman ford)
+- Coloring algorithm (NP Complete Problem)
+
+
+  
+
 
