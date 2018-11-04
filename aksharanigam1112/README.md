@@ -26,9 +26,9 @@ this list contains resource from *[Coding Interview University](https://github.c
 - [ ] Algorithms Part 2 - (they are divided into several weeks, sooner you finish them better it is) :
 
     - [ ] Undirected Graph
-        - [ ] Reading: Overview
-        - [ ] Reading: Lecture Slides
-        - [ ] Video: Introduction to Graphs
+        - [X] Reading: Overview
+        - [X] Reading: Lecture Slides
+        - [X] Video: Introduction to Graphs
         - [ ] Video: Graph API
         - [ ] Video: Depth-First Search
         - [ ] Video: Breadth-First Search
