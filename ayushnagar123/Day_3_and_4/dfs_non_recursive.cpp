@@ -1,5 +1,7 @@
 #include<iostream>
 #include<list>
+#include<vector>
+#include<stack>
 using namespace std;
 class Graph
 {
@@ -48,7 +50,7 @@ int main()
     cout<<"enter source node and destination node";
     cin>>sc>>sc;
     g.addEdge(sc, ds);
-    cout<<"dp you want to insert more connections? if yes enter 1 else 0:-";
+    cout<<"do you want to insert more connections? if yes enter 1 else 0:-";
     cin>>m;
     }while(m!=0);
     cout << "Following is Depth First Traversal (starting from vertex 2) \n";
