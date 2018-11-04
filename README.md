@@ -11,13 +11,13 @@
 
 ## Additional Stuff
 
-- 1. greedy algorithms
-  - 1.1 boruvka's algorithm (comes under MST)
-  - 1.2 reverse delete algorithm (comes under MST)
-- 2. Floyd warshal algorithm (part of dynamic programming for weighted graphs)
-- 3. Articulation point graph algorithm (cut vertices)
-- 4. Johnson's algorithm (uses both dijkstrras and bellman ford)
-- 5. Coloring algorithm (NP Complete Problem)
+- greedy algorithms
+  - boruvka's algorithm (comes under MST)
+  - reverse delete algorithm (comes under MST)
+- Floyd warshal algorithm (part of dynamic programming for weighted graphs)
+- Articulation point graph algorithm (cut vertices)
+- Johnson's algorithm (uses both dijkstrras and bellman ford)
+- Coloring algorithm (NP Complete Problem)
 
 
   
