@@ -31,7 +31,7 @@ this list contains resource from *[Coding Interview University](https://github.c
         - [X] Video: Introduction to Graphs
         - [X] Video: Graph API
         - [X] Video: Depth-First Search
-        - [X] Video: Breadth-First Search
+        - [ ] Video: Breadth-First Search
         - [ ] Video: Connected Components
         - [ ] Video: Graph Challenges
         - [ ] Practice Quiz: Interview Questions: Undirected Graphs (ungraded)
