@@ -19,7 +19,7 @@ class graph
 
         void remove_edge(int s , int e)
         {   adj[s].remove(e);   
-            adj[s].remove(e);
+            adj[e].remove(s);
         }
 
         void display()
@@ -59,6 +59,11 @@ int main()
 
         g.display();
     
+
+        g.remove_edge(1, 3);
+
+        cout<<"\nNow the edge (1,3) must be removed\n";
+                g.display();
     
    return 0;
 }

@@ -43,8 +43,9 @@ class graph
 
         void display()
         {   int i,j;
+            cout<<"  ";
             for(i=0;i<v;i++)
-            {   cout<<i<<" ";
+            {   cout<<" "<<i;
             }
             cout<<"\n";
             for(i=0;i<v;i++)
