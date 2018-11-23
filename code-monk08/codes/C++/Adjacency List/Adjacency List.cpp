@@ -37,7 +37,7 @@ void input(vector<int> *array, int n, int e)
 
 int main()
 {
-    int n; //vertices
+    int n; //input the value which is (1 + maximum node value)
     cin >> n;
     int e;
     cin >> e; //edges

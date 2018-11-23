@@ -1,3 +1,5 @@
+//run using g++ -std=c++11 Dijkstras.cpp
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -91,16 +93,16 @@ public:
 int main(){
 
     
-    /*
+    
     Graph<int> g;
     g.addEdge(1,2,1);
     g.addEdge(1,3,4);
     g.addEdge(2,3,1);
     g.addEdge(3,4,2);
     g.addEdge(1,4,7);
-    //g.printAdj();
+    g.printAdj();
    // g.dijsktraSSSP(1);
-    */
+    
     
     
     
