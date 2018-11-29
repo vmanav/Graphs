@@ -4,11 +4,11 @@ using namespace std;
 struct node
 {   int e; // end
     struct node* next;
-}
+};
 
 struct list
-{   struct node* head;  
-}
+{   struct node* head;
+};
 
 class graph
 {   private:
@@ -22,7 +22,7 @@ class graph
             {   arr[i].head = NULL;
             }
         }
-        
+
         node* new_node(int E)
         {   struct node* temp = new (node);
             temp->e = E;
@@ -31,33 +31,39 @@ class graph
         }
 
         void add_edge(int s , int e)    // start and end
-        {   node * newnode = new_node(e);
-            new_node->next = arr[s].head;
-            arr[s].head = new_node;
+        {   struct node* ptr1= new_node(e);
+            ptr1->next = arr[s].head;
+            arr[s].head = ptr1;
 
-            newnode = new_node(s);
-            new_node->next = arr[e].head;
-            arr[e].head = new_node;
+            struct node* ptr2 = new_node(s);
+            ptr2->next = arr[e].head;
+            arr[e].head = ptr2;
         }
 
         // TO BE IMPLEMENTED LATER
-        /*
+        
             void remove_edge(int s, int e)
             {
-                Node* ptr1 = arr[s-1].head;
-                arr[s-1].head = ptr1->next;
+                struct node* ptr1 = arr[s].head;
+                arr[s].head = ptr1->next;
                 delete ptr1;
-            }    
-        */
+
+                 struct node* ptr2 = arr[e].head;
+                arr[e].head = ptr2->next;
+                delete ptr2;
+
+                
+            }
+        
 
         void display()
         {   int i;
             cout<<"\nAdjacency List";
             for(i=0;i<v;i++)
             {   struct node* ptr = arr[i].head;
-                cout<<"\nVertex :"<<i;
+                cout<<"\nVertex "<<i<<" - ";
                 while(ptr)
-                {   cout<<ptr->e<<" "; 
+                {   cout<<ptr->e<<" ";
                     ptr=ptr->next;
                 }
                 cout<<"\n";
@@ -82,12 +88,15 @@ int main()
 
         g.add_edge(3, 4);
 
-     
+
 
         // print the adjacency list representation of the above graph
 
         g.display();
-    
-    
+
+         g.remove_edge(1, 3);
+        cout<<"\nafter removing edges\n";
+        g.display();
+
    return 0;
 }

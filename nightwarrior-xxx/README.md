@@ -16,12 +16,12 @@ this list contains resource from *[Coding Interview University](https://github.c
     - BFS and DFS - know their computational complexity, their tradeoffs, and how to implement them in real code
     - When asked a question, look for a graph-based solution first, then move on if none.
 
-- [X] MyCodeSchool Videos - Initiate Here:
-    - [X] [MYCODESCHOOL - Video 38 - Introduction to Graphs](https://youtu.be/gXgEDyodOJU?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [X] [MYCODESCHOOL - Video 39 - Properties of Graphs](https://www.youtube.com/watch?v=AfYqN3fGapc&t=0s&index=40&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [X] [MYCODESCHOOL - Video 40 - Representation P.1 Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&t=0s&index=41&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [X] [MYCODESCHOOL - Video 41 - Representation P.2 Adjancency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&t=0s&index=42&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
-    - [X] [MYCODESCHOOL - Video 42 - Representation P.3 Adjancency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=0s&index=43&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+- [ ] MyCodeSchool Videos - Initiate Here:
+    - [ ] [MYCODESCHOOL - Video 38 - Introduction to Graphs](https://youtu.be/gXgEDyodOJU?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [MYCODESCHOOL - Video 39 - Properties of Graphs](https://www.youtube.com/watch?v=AfYqN3fGapc&t=0s&index=40&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [MYCODESCHOOL - Video 40 - Representation P.1 Edge List](https://www.youtube.com/watch?v=ZdY1Fp9dKzs&t=0s&index=41&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [MYCODESCHOOL - Video 41 - Representation P.2 Adjancency Matrix](https://www.youtube.com/watch?v=9C2cpQZVRBA&t=0s&index=42&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+    - [ ] [MYCODESCHOOL - Video 42 - Representation P.3 Adjancency List](https://www.youtube.com/watch?v=k1wraWzqtvQ&t=0s&index=43&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 
 - [ ] Algorithms Part 2 - (they are divided into several weeks, sooner you finish them better it is) :
 
@@ -80,7 +80,7 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [ ] [CSE373 2012 - Lecture 11 - Graph Data Structures (video)](https://www.youtube.com/watch?v=OiXxhDrFruw&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=11)
     - [ ] [CSE373 2012 - Lecture 12 - Breadth-First Search (video)](https://www.youtube.com/watch?v=g5vF8jscteo&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=12)
     - [ ] [CSE373 2012 - Lecture 13 - Graph Algorithms (video)](https://www.youtube.com/watch?v=S23W6eTcqdY&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b&index=13)
-    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)   
+    - [ ] [CSE373 2012 - Lecture 14 - Graph Algorithms (con't) (video)](https://www.youtube.com/watch?v=WitPBKGV0HY&index=14&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 15 - Graph Algorithms (con't 2) (video)](https://www.youtube.com/watch?v=ia1L30l7OIg&index=15&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
     - [ ] [CSE373 2012 - Lecture 16 - Graph Algorithms (con't 3) (video)](https://www.youtube.com/watch?v=jgDOQq6iWy8&index=16&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
@@ -102,8 +102,8 @@ this list contains resource from *[Coding Interview University](https://github.c
     - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - I'll implement:
-    - [X] DFS with adjacency list (recursive)
-    - [X] DFS with adjacency list (iterative with stack)
+    - [ ] DFS with adjacency list (recursive)
+    - [ ] DFS with adjacency list (iterative with stack)
     - [ ] DFS with adjacency matrix (recursive)
     - [ ] DFS with adjacency matrix (iterative with stack)
     - [ ] BFS with adjacency list

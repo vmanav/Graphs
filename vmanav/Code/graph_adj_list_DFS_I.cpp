@@ -1,4 +1,6 @@
 #include<iostream>
+#include<vector>
+#include<stack>
 #include<list>
 using namespace std;
 
@@ -18,9 +20,11 @@ class graph
         }
 
         void remove_edge(int s , int e)
-        {   adj[s].remove(e);   
-            adj[e].remove(s);
+        {   adj[s].remove(e);
+            adj[s].remove(e);
         }
+
+        void DFS(int V);
 
         void display()
         {   int i;
@@ -32,38 +36,49 @@ class graph
                     I++;
                 }
                 cout<<"\n";
-            }  
+            }
         }
 };
 
 int main()
-{   graph g(5);
+{   graph g(8);
 
         g.add_edge(0, 1);
 
-        g.add_edge(0, 4);
-
         g.add_edge(1, 2);
-
-        g.add_edge(1, 3);
-
-        g.add_edge(1, 4);
 
         g.add_edge(2, 3);
 
-        g.add_edge(3, 4);
+        g.add_edge(1, 7);
 
-     
+        g.add_edge(2, 4);
+
+        g.add_edge(4, 5);
+
+        g.add_edge(4, 6);
+
+        g.add_edge(4, 7);
+
+
 
         // print the adjacency list representation of the above graph
 
         g.display();
-    
 
-        g.remove_edge(1, 3);
 
-        cout<<"\nNow the edge (1,3) must be removed\n";
-                g.display();
-    
+            cout << "Following is Depth First Traversal"
+            " (starting from vertex 0) \n";
+    g.DFS(0);
+
+
    return 0;
 }
+
+
+
+
+
+void graph::DFS(int V)
+{   vector<bool> visited(v, false); // ALL MARKED TO ZERO
+
+    stack<int> ST;
