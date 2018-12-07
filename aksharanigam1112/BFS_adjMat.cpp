@@ -8,6 +8,7 @@ private:
       bool** adjMatrix;
       int Vertices;
 public:
+     vector<int>visited;
       Graph(int nv)
       {
             this->Vertices = nv;
@@ -62,11 +63,11 @@ public:
         }
     }
 
-    bool visited(int ele , vector<int>v)
+    bool find(int ele)
     {
-        for(int i=0;i<v.size();i++)
+        for(int i=0;i<visited.size();i++)
         {
-            if(ele==v[i])
+            if(ele==visited[i])
                 return true;
         }
         return false;
@@ -74,22 +75,20 @@ public:
 
     void BFS(int n)
     {
-        vector<int>visit;
+
         for(int i=0;i<n;i++)
         {
-            if(!visited(i,visit))
-                {
-                        cout<<" "<<i+1;
-                        visit.push_back(i);
-                }
+            if(!find(i))
+            {
+                    visited.push_back(i+1);
+            }
             for(int j=0;j<n;j++)
             {
                 if(isEdge(i+1,j+1))
                 {
-                    if(!visited(j,visit))
+                    if(!find(j))
                     {
-                        cout<<" "<<j+1;
-                        visit.push_back(j);
+                        visited.push_back(j+1);
                     }
                 }
             }
@@ -131,8 +130,12 @@ int main()
             }
         case 3:
             {
-                cout<<"\nBFS";
                 obj.BFS(n);
+
+                for(int i=0;i<obj.visited.size();i++)
+                {
+                    cout<<"\t"<<obj.visited[i];
+                }
                 break;
             }
         case 4:
