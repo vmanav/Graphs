@@ -44,6 +44,7 @@ int main()
 {
     int n,e;
     cin>>n>>e;
+    //input the value which is (1 + maximum node value)
     vector< vector<int> > matrix(n, vector<int>(n, 0));
     ADJMATRIX am(n,e);
     am.input(matrix);

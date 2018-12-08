@@ -1,4 +1,5 @@
 //work on deletion in adjacency list representation.
+//input the value which is (1 + maximum node value)
 #include <iostream>
 #include <vector>
 #include <iterator>

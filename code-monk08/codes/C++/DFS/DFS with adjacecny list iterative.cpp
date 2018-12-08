@@ -1,4 +1,4 @@
-//work on deletion in adjacency list representation.
+
 #include <iostream>
 #include <vector>
 #include <iterator>

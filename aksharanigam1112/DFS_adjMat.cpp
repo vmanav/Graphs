@@ -9,6 +9,7 @@ private:
       bool** adjMatrix;
       int Vertices;
 public:
+    vector<int>visited;
       Graph(int nv)
       {
             this->Vertices = nv;
@@ -49,29 +50,28 @@ public:
         }
     }
 
-    bool find(int ele , vector<int> v)
+    bool find(int ele)
     {
-        for(int i=0;i<v.size();i++)
+        for(int i=0;i<visited.size();i++)
         {
-            if(v[i] == ele)
+            if(visited[i] == ele)
                 return true;
         }
         return false;
     }
 
-    void DFS(int beg , vector<int>visited)
+    void DFS(int beg )
     {
-        if(!find(beg , visited))
+        if(!find(beg))
             {
-                 cout<<beg<<"\t";
                 visited.push_back(beg);
             }
 
             for(int j=0;j<Vertices ;j++)
             {
-                if(adjMatrix[beg-1][j] == true && j!=beg-1 && (!find(j+1,visited) ))
+                if(adjMatrix[beg-1][j] == true && j!=beg-1 && (!find(j+1) ))
                 {
-                     DFS(j+1 , visited);
+                     DFS(j+1);
                 }
             }
 
@@ -109,10 +109,13 @@ int main()
         case 3:
             {
                 int x;
-                vector<int> v;
                 cout<<"\nEnter the vertex to start DFS with :- ";
                 cin>>x;
-                obj.DFS(x , v);
+                obj.DFS(x);
+                for(x=0;x<obj.visited.size();x++)
+                {
+                    cout<<"\t"<<obj.visited[x];
+                }
                 break;
             }
         case 4:

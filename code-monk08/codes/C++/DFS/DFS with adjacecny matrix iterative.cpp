@@ -24,7 +24,6 @@ void DFS(vector< vector<int> > &matrix,int n, int sv)
             if(matrix[cv][i] == 1 && !visited[i] && i!=cv)
                 {
                     S.push(i);
-                    break;
                 }
         }
     }

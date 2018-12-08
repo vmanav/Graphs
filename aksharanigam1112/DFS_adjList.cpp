@@ -9,7 +9,10 @@ class Graph
 private:
     int vertices;
     list<int> *adjlist;
+
 public:
+    vector<int>visited;
+
     Graph(int n)
     {
         this->vertices = n;
@@ -41,28 +44,29 @@ public:
             }
     }
 
-    bool find(int ele , vector<int> v)
+    bool find(int ele )
     {
-        for(int i=0;i<v.size();i++)
+        for(int i=0;i<visited.size();i++)
         {
-            if(v[i] == ele)
+            if(visited[i] == ele)
                 return true;
         }
         return false;
     }
 
-    void DFS(int beg , vector<int>visited )
+    void DFS(int beg)
     {
-            if(!find(beg , visited))
-                cout<<beg<<"\t";
-            visited.push_back(beg);
+            if(find(beg)==false)
+              {
+                visited.push_back(beg);
+              }
 
             list<int>::iterator it = adjlist[beg-1].begin();
             while(it != adjlist[beg-1].end())
             {
-                if(!find(*it , visited))
+                if(!find(*it))
                 {
-                    DFS(*it , visited);
+                    DFS(*it);
                 }
                 it++;
             }
@@ -102,8 +106,12 @@ int main()
                 int x;
                 cout<<"\nEnter the vertex to start DFS with:- ";
                 cin>>x;
-                vector<int>v;
-                obj.DFS(x , v);
+                obj.DFS(x);
+
+                for(x=0;x<obj.visited.size();x++)
+                {
+                    cout<<"\t"<<obj.visited[x];
+                }
                 break;
             }
         case 4:

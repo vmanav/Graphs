@@ -1,6 +1,6 @@
 #include<iostream>
 #include<list>
-#include<queue>
+#include<stack>
 using namespace std;
 
 class graph{
@@ -21,32 +21,22 @@ public:
         }
     }
 
-    void printadjlist(){
-        for(int i=0;i<V;i++){
-            cout<<i<<"->";
-            for(int node:adjlist[i]){
-                cout<<node<<",";
-            }
-            cout<<endl;
-        }
-    }
-
-    void bfs(int src){
-        queue<int> q;
+    void dfs(int src){
+        stack<int> s;
         bool *visited = new bool[V]{0};
 
-        q.push(src);
-        visited[src] = true;
-
-        while(!q.empty()){
-            int node = q.front();
-            cout<<node<<" ";
-            q.pop();
+        s.push(src);
+        while(!s.empty()){
+            int node = s.top();
+            s.pop();
+            if(!visited[node]){
+                cout<<node<<" ";
+                visited[node] = true;
+            }
 
             for(int neighbour: adjlist[node]){
                 if(!visited[neighbour]){
-                    q.push(neighbour);
-                    visited[neighbour] = true;
+                    s.push(neighbour);
                 }
             }
         }
@@ -63,7 +53,8 @@ int main(){
     g.addedge(3,4);
     g.addedge(3,5);
 
-    //g.printadjlist();
-    g.bfs(0);
+    g.dfs(0);
     return 0;
 }
+
+
